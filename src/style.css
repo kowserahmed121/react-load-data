@@ -1,0 +1,16 @@
+.box {
+  border: 2px solid salmon;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 15px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.text-justify{
+    text-align: justify;
+}
